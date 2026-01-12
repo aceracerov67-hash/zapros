@@ -60,7 +60,6 @@ const App = () => {
           value={phone} 
           onChange={(e) => setPhone(e.target.value)} 
           required 
-          pattern="(\d{2}\) \d{3}-\d{2}-\d{2}$"
         />
         <br /><br />
 
@@ -71,3 +70,4 @@ const App = () => {
 }
 
 export default App;
+
